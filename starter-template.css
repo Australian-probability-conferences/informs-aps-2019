@@ -1,0 +1,34 @@
+@font-face {
+	font-family: "NemoyLight";
+	src: url(./fonts/NemoyLight.otf) format("opentype");
+
+}
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 1px;
+  text-align: left;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+h3 {
+  color: #0f0f88;
+}
+
+h1 {
+	color: #0f0f88;
+  font-family: NemoyLight;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 870px;
+  }
+}
